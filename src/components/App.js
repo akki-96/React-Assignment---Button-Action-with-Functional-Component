@@ -18,7 +18,7 @@ function App() {
 
   return (
     <div id="main">
-      <button onClick={fun}>button</button>
+      <button id="click" onClick={fun}>Button</button>
       {fun1()}
     </div>
   );
